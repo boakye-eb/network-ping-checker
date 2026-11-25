@@ -34,7 +34,6 @@ To find your router's IP on Windows, run `ipconfig` and look for **Default Gatew
 
 ## Example output
 
-## Example output
 
 **Healthy connection**
 
