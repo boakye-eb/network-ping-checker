@@ -49,7 +49,7 @@ Website (DNS)   google.com         UP    171 ms
 ```
 Running checks...
 
-Diagnosis: All three checks passed. The connection looks healthy.
+Diagnosis: All three checks passed. The connection looks unhealthy.
 ```
 
 ## How it works
