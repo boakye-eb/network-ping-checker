@@ -60,10 +60,9 @@ Diagnosis: All three checks passed. The connection looks unhealthy.
 
 ## What I learned
 
-- How to run a system command from Python with `subprocess` and read its output.
-- How to pull values out of text with a regular expression.
-- How to handle differences between Windows and Linux/macOS in one script.
-- That the same ping order I use by hand can be turned into a small tool.
+- How computers translates websites names into number addresses and measure how fast signals travel across the internet.
+- How to make your code run computer commands automatically to see if websites or devices are online.
+- How to spot if the problem is coming from your computer, router or ISP.
 
 ## Ideas for next steps
 
