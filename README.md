@@ -79,3 +79,5 @@ Diagnosis: Problem between this computer and the router. Check the cable or Wi-F
 - Check several websites instead of one
 - Run the checks repeatedly and alert when a target goes down
 - Add a timestamped log chart
+
+  See also: [IT Support Troubleshooting Guide](https://github.com/boakye-eb/it-support-troubleshooting-guide)
