@@ -34,22 +34,32 @@ To find your router's IP on Windows, run `ipconfig` and look for **Default Gatew
 
 ## Example output
 
-
 **Healthy connection**
 
 ![Successful run](ping-checker-success.png)
 
-Router          172.20.10.1        UP      3 ms
-Public IP       8.8.8.8            UP    164 ms
-Website (DNS)   google.com         UP    171 ms
+Tested on a phone hotspot connection
+
+```
+Router          172.20.10.1        UP     6 ms
+Public IP       8.8.8.8            UP    42 ms
+Website (DNS)   google.com         UP    42 ms
+
+Diagnosis: All three checks passed. The connection looks healthy.
+```
 
 **Wi-Fi turned off**
 
 ![Failed run](ping-checker-failure.png)
-```
-Running checks...
 
-Diagnosis: All three checks passed. The connection looks unhealthy.
+Tested on a phone hotspot connection
+
+```
+Router          172.20.10.1        DOWN  -
+Public IP       8.8.8.8            DOWN  -
+Website (DNS)   google.com         DOWN  -
+
+Diagnosis: Problem between this computer and the router. Check the cable or Wi-Fi, then restart the router.
 ```
 
 ## How it works
@@ -60,7 +70,7 @@ Diagnosis: All three checks passed. The connection looks unhealthy.
 
 ## What I learned
 
-- How computers translates websites names into number addresses and measure how fast signals travel across the internet.
+- How computers translate website names into numeric addresses, and how to measure how fast signals travel across the internet.
 - How to make your code run computer commands automatically to see if websites or devices are online.
 - How to spot if the problem is coming from your computer, router or ISP.
 
