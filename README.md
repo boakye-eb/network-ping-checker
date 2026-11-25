@@ -39,15 +39,15 @@ To find your router's IP on Windows, run `ipconfig` and look for **Default Gatew
 
 ![Successful run](ping-checker-success.png)
 
+Router          172.20.10.1        UP      3 ms
+Public IP       8.8.8.8            UP    164 ms
+Website (DNS)   google.com         UP    171 ms
+
 **Wi-Fi turned off**
 
 ![Failed run](ping-checker-failure.png)
 ```
 Running checks...
-
-Router          192.168.1.1        UP    3 ms
-Public IP       8.8.8.8            UP    164 ms
-Website (DNS)   google.com         UP    171 ms
 
 Diagnosis: All three checks passed. The connection looks healthy.
 ```
