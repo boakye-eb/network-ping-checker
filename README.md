@@ -34,8 +34,15 @@ To find your router's IP on Windows, run `ipconfig` and look for **Default Gatew
 
 ## Example output
 
-> Replace this block with your own real output after running the script.
+## Example output
 
+**Healthy connection**
+
+![Successful run](ping-checker-success.png)
+
+**Wi-Fi turned off**
+
+![Failed run](ping-checker-failure.png)
 ```
 Running checks...
 
